@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gray-100: #F2F2F2;
+    --gray-200: #808080;
+    --gray-400: #333;
+    --gray-500: #262626;
+    --gray-600: #1A1A1A;
+    --gray-700: #0D0D0D;
+
+    --blue-300: #4EA8DE;
+    --blue-500: #1E6F9F;
+
+    --purple-300: #7a7cf8;
+    --purple-500: #5c5dce;
+
+    --red-500: #E25858;
+}
+
+body, input, button {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: var(--gray-600);
+}

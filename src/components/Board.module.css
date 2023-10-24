@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+.taskCreate {
+    color: var(--blue-300);
+    font-weight: bold;
+}
+
+.taskCreate button {
+    width: 1.5rem;
+    height: 1rem;
+    border-radius: 62.4375rem;
+    border: 0;
+    margin-left: 0.5rem;
+    background: var(--gray-400);
+    color: var(--gray-200);
+}
+
+.taskFineshed {
+    color: var(--purple-300);
+    font-weight: bold;
+}
+
+.taskFineshed button {
+    width: 3.5rem;
+    height: 1rem;
+    border-radius: 62.4375rem;
+    border: 0;
+    margin-left: 0.5rem;
+    background: var(--gray-400);
+    color: var(--gray-200);
+}
+
+.listTask {
+    width: 100%;
+    border-radius: 0.5rem;
+    border-top: 1px solid var(--gray-400);
+    margin-top: 1.5rem;
+    min-height: 15rem;
+}
+
+.noTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1.5rem;
+}
+
+.noTask img {
+    margin-bottom: 0.5rem;
+}
+
+.noTask strong, span {
+    color: var(--gray-200);
+}
